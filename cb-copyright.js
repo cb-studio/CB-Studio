@@ -10,7 +10,7 @@ footer.style.position = 'relative'; // Change 'fixed' to 'relative' to make it a
 footer.style.backgroundColor = '#fff'; // Set the background color to white
 footer.style.color = '#333'; // Set the text color
 footer.style.textAlign = 'center'; // Center align the text
-footer.style.padding = '10px';
+footer.style.padding = '20px';
 
 // Append the footer to the body of the document
 document.body.appendChild(footer);
