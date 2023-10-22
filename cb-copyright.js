@@ -7,8 +7,8 @@ Programmierung und Design: Christian Beer<br>
 
 // Add styling to the footer (you can customize the CSS)
 footer.style.position = 'relative'; // Change 'fixed' to 'relative' to make it appear inside the body
-footer.style.backgroundColor = '#fff'; // Set the background color to white
-footer.style.color = '#333'; // Set the text color
+footer.style.backgroundColor = '#000'; // Set the background color to white
+footer.style.color = '#fff'; // Set the text color
 footer.style.textAlign = 'center'; // Center align the text
 footer.style.padding = '20px';
 
