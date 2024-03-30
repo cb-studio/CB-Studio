@@ -1,16 +1,27 @@
-// Create a div element for your company name and portfolio link
-const footer = document.createElement('div');
-footer.innerHTML = `
-Programmierung und Design: Christian Beer<br>
-&nbsp<a href="https://christianbeer.me/" target="_blank">christianbeer.me</a>&nbsp|&nbsp<a href="tel:+4915679241652">+49 15679 241652</a>&nbsp|&nbsp<a href="mailto:hello@christianbeer.me">hello@christianbeer.me</a>
-`;
+<div class="branding-badge">
+    <p>Made with Love</p>
+    <style>
+        .branding-badge {.branding-badge {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Creates the circle */
+    background-color: #F00; /* Badge color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF; /* Text color */
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds a shadow for depth */
+    position: fixed; /* Makes the badge stay in a fixed position */
+    bottom: 20px; /* Distance from the bottom of the viewport */
+    right: 20px; /* Distance from the right side of the viewport */
+    z-index: 1000; /* Ensures the badge stays above other content */
+}
 
-// Add styling to the footer (you can customize the CSS)
-footer.style.position = 'relative'; // Change 'fixed' to 'relative' to make it appear inside the body
-footer.style.backgroundColor = '#fff'; // Set the background color to white
-footer.style.color = '#000'; // Set the text color
-footer.style.textAlign = 'center'; // Center align the text
-footer.style.padding = '20px';
-
-// Append the footer to the body of the document
-document.body.appendChild(footer);
+.branding-badge p {
+    margin: 0; /* Removes default paragraph margins */
+    font-size: 14px; /* Sets the text size */
+}
+}
+    </style>
+</div>
